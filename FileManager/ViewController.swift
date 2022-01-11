@@ -19,11 +19,9 @@ class ViewController: UIViewController {
             let array = getData()
             datos = array
         }else{
-            print ("No existe")
+            print ("No existe el archivo")
         }
         txt_2.text = datos.description
-        //leer los datos
-        
         
     }
     @IBAction func btn_guardar(_ sender: Any) {
